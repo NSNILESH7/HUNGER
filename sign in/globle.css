@@ -1,0 +1,92 @@
+.sign_in {
+  height: 100vh;
+  background-color: aqua;
+  background-image: url(food.png);
+  background-size: cover;
+  display:flex;
+
+}
+.sign_in_pg {
+  width: 25%;
+  height: 70%;
+  background-color: #fff;
+  border-radius: 6%;
+  position: absolute;
+  top: 330px;
+  left: 380px;
+  box-shadow: 5px 5px 5px #383737;
+  display: flex;
+}
+.btn {
+  background-color: transparent;
+  border: 0;
+  font-size: 50px;
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+  top: 20px;
+  border-radius: 30%;
+  transition: 0.2s;
+}
+.btn:hover{
+ font-size: 60px;
+}
+h3{
+  font-size: 60px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.main{
+  position:absolute;
+  top: 300px;
+  left: 100px;
+  font-size: 35px;
+
+}
+
+.box{
+  width: 160%;
+  height: 60px;
+  margin: 10px 00px 18px 0;
+  padding-top: 5px;
+  font-size: 25px;
+  border-radius:10px;
+
+}
+.btn_1{
+  border-radius:20px;
+  width: 500px;
+  height: 70px;
+  display: flex;
+  position: absolute;
+  top: 650px;
+  left: 120px;
+  background-color: rgb(231, 113, 40);
+  font-size:25px;
+  text-align: center;
+  cursor: pointer;
+  padding-left: 180px;
+  padding-top: 20px;
+}
+.pass{
+  font-size: 20px;
+  position: absolute;
+  bottom: 280px;
+  padding-left: 100px;
+}
+.forgot{
+  margin-left: 150px;
+}
+.fotter{
+  font-size: 20px;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+}
+
+
+
+
+
+

@@ -1,0 +1,254 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #ff9f01;
+}
+.header img {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: -40px;
+}
+.nav {
+  width: 700px;
+  height: 60px;
+  background-color: #ff9f01;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav_icon {
+  font-size: 25px;
+  margin-right: 20px;
+  /* border: 1px solid black; */
+  text-decoration: underline;
+  color: black;
+  padding: 0.5px;
+  transition: 0.1s ease-in;
+}
+.nav_icon:hover {
+  font-size: 28px;
+  color: white;
+}
+.bd {
+  width: 110%;
+  height: 285px;
+  background-image: url(kk.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bd h2,
+p {
+  text-align: center;
+  color: white;
+}
+.a2 {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #ff9f01;
+}
+.wel_come {
+  width: 70%;
+  height: 380px;
+  padding: 20px 40px;
+  border: red solid 1.5px;
+  border-radius: 15px;
+  margin: 0px 150px 30px 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.wel_come h1 {
+  display: inline-block;
+  margin-left: 50px;
+}
+.a2 H2 {
+  text-align: center;
+  margin-top: 50px;
+  color: red;
+}
+.a3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 0px;
+}
+.img2 {
+  width: 500px;
+  height: 300px;
+  /* position: absolute; */
+  right: 200px;
+  top: 1000px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+.a2 p {
+  width: 500px;
+  /* position: absolute; */
+  left: 300px;
+  top: 1100px;
+  color: black;
+  font-size: 20px;
+  margin-right: 35px;
+}
+.banner {
+  width: 100%;
+  height: 300px;
+  background-color: pink;
+  background-image: url(banner.png);
+  background-position: 10px -100px;
+  background-size: cover;
+}
+.chef {
+  width: 100%;
+  background-color: #ff9f01;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.chef_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chef_info h1 {
+  color: red;
+}
+.chef_info p {
+  font-size: 20px;
+  width: 500px;
+  color: #111;
+}
+.chef_bullet ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+  row-gap: 3rem;
+}
+.review {
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  color: #3d3a3a;
+  background-image: url(Group.png);
+}
+.reviews {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px;
+}
+.single_review {
+  width: 350px;
+  height: 300px;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #111;
+  padding: 10px 10px ;
+  position: relative;
+}
+.single_review h3{
+  color: red;
+}
+.single_review p{
+  color: #111;
+  margin-top: 39px;
+}
+.imgg{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #ff9f01;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+
+}
+.single_review h4{
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+}
+.single_review h6{
+  position: absolute;
+  bottom: 7px;
+  left: 100px;
+
+}
+
+.a4 {
+  width: 100%;
+  /* height: 363px; */
+  background-color: #111;
+  display: flex;
+  flex-direction: row;
+}
+.footer {
+  width: 100%;
+  padding: 45px 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  /* max-width: 1170px; */
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 1px 100px 0px 80px;
+}
+.footer-col h4 {
+  font-size: 22px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+.footer-col ul li a:hover {
+  color: #ffff;
+  padding-left: 8px;
+}
+.footer-col .social-links {
+  display: flex;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  font-size: 20px;
+  color: #fcfbfb;
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+.footer-col ul li a {
+  color: #ff9f01;
+  font-size: 20px;
+  line-height: 40px;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+.footer-col ul li {
+  color: white;
+}
+
